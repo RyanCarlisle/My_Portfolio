@@ -1,0 +1,22 @@
+/*-----------------------------------------Footer.js-----------------------------------------------------------------------*/
+footer{
+    font-family: sans-serif;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem; 
+}
+.footer span {
+    color: #2196f3;
+}
+.footer span:hover{
+    color: #39FF14;
+    transition: 0.75s;
+}
+@media only screen and (max-width: 768px){
+    .design{
+        font-size: 15px;
+    }   
+}

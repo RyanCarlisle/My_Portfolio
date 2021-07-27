@@ -1,38 +1,260 @@
-.App {
-  text-align: center;
+body
+{
+  margin: 0;
+  padding: 0;
+  background: #000;
 }
 
-.App-logo {
-  height: 40vmin;
+/*My Name*/
+.section{
+  height: 51vh;
+  background: #000;
+}
+.section:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background: linear-gradient(to right, #f00, #f00, #0ff, #0f0, #ff0, #fff, #fff, #00f);
+  mix-blend-mode: color;
   pointer-events: none;
 }
+.my_name{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 25%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 0.5rem;
+  font-family: sans-serif;
+}
+.my_name span {
+  opacity: 0;
+  display: inline-block;
+  animation: animate 1s linear forwards;
+  -webkit-animation: animate 1s linear forwards;
+  -moz-animation: animate 1s linear forwards;
+  -o-animation: animate 1s linear forwards;
+  -ms-animation: animate 1s linear forwards;
+}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@keyframes animate {
+  0%
+  {
+    opacity: 0;
+    transform: rotateY(90deg);
+    filter: blur(10px);
+  }
+  100%
+  {
+    opacity: 1;
+    transform: rotateY(0deg);
+    filter: blur(0px);
+  }
+}
+@-webkit-keyframes animate {
+  0%
+  {
+    opacity: 0;
+    transform: rotateY(90deg);
+    filter: blur(10px);
+  }
+  100%
+  {
+    opacity: 1;
+    transform: rotateY(0deg);
+    filter: blur(0px);
+  }
+}
+@-moz-keyframes animate {
+  0%
+  {
+    opacity: 0;
+    transform: rotateY(90deg);
+    filter: blur(10px);
+  }
+  100%
+  {
+    opacity: 1;
+    transform: rotateY(0deg);
+    filter: blur(0px);
+  }
+}
+@-o-keyframes animate {
+  0%
+  {
+    opacity: 0;
+    transform: rotateY(90deg);
+    filter: blur(10px);
+  }
+  100%
+  {
+    opacity: 1;
+    transform: rotateY(0deg);
+    filter: blur(0px);
+  }
+}
+@-ms-keyframes animate {
+  0%
+  {
+    opacity: 0;
+    transform: rotateY(90deg);
+    filter: blur(10px);
+  }
+  100%
+  {
+    opacity: 1;
+    transform: rotateY(0deg);
+    filter: blur(0px);
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media only screen and (max-width: 767px){
+  .my_name{
+    font-size: 1rem;
   }
 }
+@media only screen and (max-width: 320px){
+  .my_name{
+    font-size: 0.9rem;
+  }
+}
+
+video{
+  object-fit: cover;
+  max-width: 100%;
+}
+
+.my_name span:nth-child(1){
+  animation-delay: 1s;
+}
+.my_name span:nth-child(2){
+  animation-delay: 1.25s;
+}
+.my_name span:nth-child(3){
+  animation-delay: 1.5s;
+}
+.my_name span:nth-child(4){
+  animation-delay: 1.75s;
+}
+.my_name span:nth-child(5){
+  animation-delay: 2s;
+}
+.my_name span:nth-child(6){
+  animation-delay: 2.25s;
+}
+.my_name span:nth-child(7){
+  animation-delay: 2.5s;
+}
+.my_name span:nth-child(8){
+  animation-delay: 2.75s;
+}
+.my_name span:nth-child(9){
+  animation-delay: 3s;
+}
+.my_name span:nth-child(10){
+  animation-delay: 3.5s;
+}
+.my_name span:nth-child(11){
+  animation-delay: 3.75s;
+}
+.my_name span:nth-child(12){
+  animation-delay: 4s;
+}
+.my_name span:nth-child(13){
+  animation-delay: 4.25s;
+}
+.my_name span:nth-child(14){
+  animation-delay: 4.5s;
+}
+.my_name span:nth-child(15){
+  animation-delay: 4.75s;
+}
+.my_name span:nth-child(16){
+  animation-delay: 5s;
+}
+
+/*Description*/
+.description{
+  font-family: sans-serif;
+  color: #fff;
+  
+}
+.college_name:hover{
+  color: #39FF14;
+  transition: 1s;
+}
+.fade-in-text {
+  animation: fadeIn linear 7s;
+  -webkit-animation: fadeIn linear 7s;
+  -moz-animation: fadeIn linear 7s;
+  -o-animation: fadeIn linear 7s;
+  -ms-animation: fadeIn linear 7s;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+@media only screen and (max-width: 767px){
+  .description{
+    font-size: 16px;
+  }
+}
+
+/*Proceed Button*/
+.proceed-button{
+  display: inline-block;
+  color: #2196f3;
+  letter-spacing: 0.5rem;
+  font-size: 24px;
+  overflow: hidden;
+  transition: 0.2s;
+}
+.proceed-button:focus{
+  outline: 0;
+  box-shadow: none;
+}
+
+.proceed-button:hover{
+  color: #0c3152;
+  background: #2196f3;
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+  /*transition-delay: 1s;*/
+}
+/*.proceed-button .btn-span:nth-child(1){
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 5px;
+  background: linear-gradient(90deg, transparent, #2196f3);
+}
+.proceed-button:hover .btn-span:nth-child(1){
+  left: 100%;
+  transition: 1s;
+}*/
