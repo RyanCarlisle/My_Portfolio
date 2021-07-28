@@ -2,13 +2,13 @@ body
 {
   margin: 0;
   padding: 0;
-  background: #000;
+  background-color: #000;
 }
 
 /*My Name*/
 .section{
   height: 51vh;
-  background: #000;
+  background-color: #000;
 }
 .section:before{
   content: '';
@@ -16,7 +16,7 @@ body
   top: 0;
   left: 0;
   width: 100%;
-  height: 50%;
+  height: 40%;
   background: linear-gradient(to right, #f00, #f00, #0ff, #0f0, #ff0, #fff, #fff, #00f);
   mix-blend-mode: color;
   pointer-events: none;
