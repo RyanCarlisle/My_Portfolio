@@ -230,7 +230,7 @@ video{
 /*Proceed Button*/
 .proceed-button{
   display: inline-block;
-  color: #2196f3;
+  color: #39ff14;
   letter-spacing: 0.5rem;
   font-size: 24px;
   overflow: hidden;
@@ -243,8 +243,8 @@ video{
 
 .proceed-button:hover{
   color: #0c3152;
-  background: #2196f3;
-  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+  background: #39ff14;
+  box-shadow: 0 0 10px #39ff14, 0 0 40px #39ff14, 0 0 80px #39ff14;
   /*transition-delay: 1s;*/
 }
 /*.proceed-button .btn-span:nth-child(1){

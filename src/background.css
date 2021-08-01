@@ -1,3 +1,4 @@
+/*Background.js*/
 .anim{
     width: 100vw;
     height: 100vh;
@@ -7,4 +8,159 @@
     top: 0;
     left: 0;
     z-index: -9999;
+}
+
+/*Experience.js*/
+.container-ex .card{
+    background: rgba(0, 0, 0, 0);
+}
+
+.container-ex .card .face{
+  
+  height: 250px;
+  transition:.4s;
+  
+}
+
+.container-ex .card .face.face1{
+ 
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-content:center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(150px);
+}
+
+.container-ex .card:hover .face.face1{
+  transform: translateY(0);
+  box-shadow:
+    inset 0 0 60px whitesmoke,
+    inset 20px 0 80px #B026FF,
+    inset -20px 0 80px #1F51FF,
+    inset 20px 0 300px #B026FF,
+    inset -20px 0 300px #1F51FF,
+    0 0 50px #fff,
+    -10px 0 80px #B026FF,
+    10px 0 80px #1F51FF;
+   
+}
+
+
+.container-ex .card .face.face1 .content{
+  opacity: .8;
+  transition:  0.5s;
+  text-align: center;
+}
+
+.container-ex .card:hover .face.face1 .content{
+  opacity: 1;
+}
+
+.container-ex .card .face.face1 .content h3{
+  font-size: 1.7em;
+  color: #fff;
+  text-align: center;
+}
+
+.container-ex .card .face.face1 .content a{
+   transition: .5s;
+}
+
+.container-ex .card .face.face2 {
+   position: relative;
+   background: whitesmoke;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-left: 10px;
+   padding-right: 10px;
+   box-sizing: border-box;
+   box-shadow: 0 20px 50px rgba(0,0,0,.8);
+   transform: translateY(-100px);
+}
+
+.container-ex .card:hover .face.face2{
+    transform: translateY(0);
+}
+/*Experiences, Skills, Projects, About Me Titles*/
+.experience, .skills, .projects, .aboutme{
+    color: #fff;
+    font-family: sans-serif;
+    letter-spacing: 4px;
+    text-shadow: 
+    0 0 10px  #B026FF,
+    0 0 20px #B026FF,
+    0 0 40px #B026FF,
+    0 0 70px #B026FF;    
+}
+
+.skills-card{
+  box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+  background: rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+  z-index: 1;
+  border-radius: 15px;
+  font-family: sans-serif;
+}
+.skills-card .skills-content{
+  transition: 0.5s;
+}
+.skills-card .skills-content h1{
+  font-size: 1.6rem;
+  color: #fff;
+  z-index: 1;
+  letter-spacing: 4px;
+  font-weight: 600;
+}
+.skills-card .skills-content ul{
+  font-size: 1rem;
+  color: #fff;
+}
+
+/*About Me*/
+.aboutme-card{
+  box-shadow: 20px 20px 50px rgba(0,0,0,0);
+  background: rgba(255, 255, 255, 0);
+  overflow: hidden;
+  z-index: 1;
+  border-radius: 15px;
+  font-family: sans-serif;
+  color: #fff;
+  text-align: justify;
+}
+
+.aboutme-card h5 {
+  line-height: 1.6;
+}
+
+/*View my Resume here button*/
+.resume-button{
+  display: inline-block;
+  color: #39ff14;
+  letter-spacing: 0.5rem;
+  font-size: 24px;
+  overflow: hidden;
+  transition: 0.2s;
+}
+.resume-button:focus{
+  outline: 0;
+  box-shadow: none;
+}
+
+.resume-button:hover{
+  color: #0c3152;
+  background: #39ff14;
+  box-shadow: 0 0 10px #39ff14, 0 0 40px #39ff14, 0 0 80px #39ff14;
+  /*transition-delay: 1s;*/
+}
+
+@media only screen and (max-width: 992px) {
+  .resume-button{
+    font-size: 20px;
+  }
 }
