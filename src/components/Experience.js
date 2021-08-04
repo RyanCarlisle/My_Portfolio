@@ -47,7 +47,6 @@ function Experience(){
                                             <h6 className="mt-2">Topic - To develop a Deep Neural Network for Recommendation System</h6> 
                                             <ul className="text-start">
                                                 <li>Tried and tested different types of models to find optimum model for recommendation systems.</li>
-                                                <li>Models tried are Matrix Factorisation,Multi-layer perceptron,Neural Multi-layer Perceptron</li>
                                             </ul>
                                         </p>
                                     </div>

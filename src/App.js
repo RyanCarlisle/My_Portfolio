@@ -7,6 +7,7 @@ import Experience from './components/Experience';
 import Skills from './components/Skills';
 import Project from './components/Projects';
 import About from './components/Aboutme';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
@@ -16,6 +17,13 @@ function App() {
       <Experience/>
       <Skills/>
       <Project/>
+      {/*<BrowserRouter>
+        <Switch>
+          <Route exact path="/" component={Cover} />
+          <Route path="/my_resume" component={Resume} />
+        </Switch>
+        <Footer/>
+      </BrowserRouter>*/}
     </div>
   );
 }
