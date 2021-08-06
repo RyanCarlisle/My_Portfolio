@@ -1,29 +1,23 @@
 import React from 'react';
 import './App.css';
+import './background.css';
 import Cover from './components/cover_page';
 import Footer from './components/footer';
-import Background from './components/background';
-import Experience from './components/Experience';
-import Skills from './components/Skills';
-import Project from './components/Projects';
-import About from './components/Aboutme';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Content from './components/Content';
+import Header from './components/Header';
 
 function App() {
   return (
     <div className="App">
-      <Background/>
-      <About/>
-      <Experience/>
-      <Skills/>
-      <Project/>
-      {/*<BrowserRouter>
+      <BrowserRouter>
+        <Header/>
         <Switch>
           <Route exact path="/" component={Cover} />
-          <Route path="/my_resume" component={Resume} />
+          <Route path="/about-me" component={Content} />
         </Switch>
         <Footer/>
-      </BrowserRouter>*/}
+      </BrowserRouter>
     </div>
   );
 }

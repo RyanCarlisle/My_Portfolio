@@ -20,7 +20,7 @@ function Skills() {
         "max-glare": 1
     }
     return (
-        <div className="container-fluid">
+        <div className="container-fluid" id="skills">
             <div className="row">
                 <div className="col-auto mx-auto">
                     <h1 className="skills">SKILLS</h1>
