@@ -19,13 +19,13 @@ function Experience(){
                                 </div>
                                 <div className="face face2">
                                     <div className="content text-center">
-                                        <p> 
+                                        <section> 
                                             SOCIAL INTERN | Jun 2019 - Jul 2019
                                             <h6 className="mt-2">Topic - Underprivileged Children</h6>
                                             <ul className="text-start">
                                                 <li>Taught underprivileged children and also helped out in daily activities in this shelter.</li>
                                             </ul>
-                                        </p>
+                                        </section>
                                     </div>
                                 </div>
                             </div>
@@ -42,13 +42,13 @@ function Experience(){
                                 </div>
                                 <div className="face face2">
                                     <div className="content text-center">
-                                        <p> 
+                                        <section> 
                                             RESEARCH INTERN | Aug 2020 - Sept 2020
                                             <h6 className="mt-2">Topic - To develop a Deep Neural Network for Recommendation System</h6> 
                                             <ul className="text-start">
                                                 <li>Tried and tested different types of models to find optimum model for recommendation systems.</li>
                                             </ul>
-                                        </p>
+                                        </section>
                                     </div>
                                 </div>
                             </div>
@@ -65,14 +65,14 @@ function Experience(){
                                 </div>
                                 <div className="face face2">
                                     <div className="content text-center">
-                                        <p>
+                                        <section>
                                             INTERN | Jun 2021 - Jul 2021 
                                         <h6 className="mt-1">Topic - Online Examination and Evaluation System (Web Application)</h6> 
                                         <ul className="text-start">
                                                 <li>Online test taking interface.</li> 
                                                 <li>It allows students to give MCQ tests and evaluates the responses against the correct answers.</li>  
                                             </ul> 
-                                        </p>
+                                        </section>
                                     </div>
                                 </div>
                             </div>

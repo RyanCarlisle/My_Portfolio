@@ -142,7 +142,7 @@
 /*View my Resume here button*/
 .resume-button{
   display: inline-block;
-  color: #39ff14;
+  color: #6BD425;
   letter-spacing: 0.5rem;
   font-size: 24px;
   overflow: hidden;
@@ -155,8 +155,8 @@
 
 .resume-button:hover{
   color: #0c3152;
-  background: #39ff14;
-  box-shadow: 0 0 10px #39ff14, 0 0 40px #39ff14, 0 0 80px #39ff14;
+  background: #6BD425;
+  box-shadow: 0 0 10px #6BD425, 0 0 40px #6BD425, 0 0 80px #6BD425;
   /*transition-delay: 1s;*/
 }
 
@@ -226,7 +226,7 @@
   width: calc(100% - 90px);
 }
 .projects .Projects-box:nth-child(1):before, .projects .Projects-box:nth-child(1):after{
-  background: linear-gradient(315deg,#1F51FF,#39ff14);
+  background: linear-gradient(315deg,#000,#f4f6ff);
 }
 
 .projects .Projects-box span {
@@ -352,4 +352,78 @@
 .projects .Projects-box:hover .projects-content{
   left: -25px;
   padding: 50px 20px;
+}
+
+/*------------------------------------- cover_page_background.js------------------------------------------------------------*/
+@keyframes move-background {
+  from {
+      -webkit-transform: translate3d(0px, 0px, 0px);
+  }
+  to { 
+      -webkit-transform: translate3d(1000px, 0px, 0px);
+  }
+}
+@-webkit-keyframes move-background {
+  from {
+      -webkit-transform: translate3d(0px, 0px, 0px);
+  }
+  to { 
+      -webkit-transform: translate3d(1000px, 0px, 0px);
+  }
+}
+
+@-moz-keyframes move-background {    
+  from {
+      -webkit-transform: translate3d(0px, 0px, 0px);
+  }
+  to { 
+      -webkit-transform: translate3d(1000px, 0px, 0px);
+  }
+}
+
+@-webkit-keyframes move-background {
+  from {
+      -webkit-transform: translate3d(0px, 0px, 0px);
+  }
+  to { 
+      -webkit-transform: translate3d(1000px, 0px, 0px);
+  }
+}
+
+.background-container{
+  position: fixed;
+  top: 0;
+  left:0;
+  bottom: 0;
+  right: 0;
+  z-index: -999999999;
+}
+
+.stars {
+  background: black url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png) repeat;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  z-index: -9999999991;
+}
+
+.twinkling{
+  width:10000px;
+  height: 100%;
+  background: transparent url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/twinkling.png") repeat;
+  background-size: 1000px 1000px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -9999999992;
+  
+  -moz-animation:move-background 20s linear infinite;
+  -ms-animation:move-background 20s linear infinite;
+  -o-animation:move-background 20s linear infinite;
+  -webkit-animation:move-background 20s linear infinite;
+  animation:move-background 20s linear infinite;
 }
