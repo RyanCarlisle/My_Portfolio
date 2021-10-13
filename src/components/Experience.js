@@ -66,7 +66,7 @@ function Experience(){
                                 <div className="face face2">
                                     <div className="content text-center">
                                         <section>
-                                            INTERN | Jun 2021 - Jul 2021 
+                                            INTERN | Jun 2021 - Sept 2021 
                                         <h6 className="mt-1">Topic - Online Examination and Evaluation System (Web Application)</h6> 
                                         <ul className="text-start">
                                                 <li>Online test taking interface.</li> 
