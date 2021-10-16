@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import smoke from './assets/smoke_SparkVideo.mp4';
-import Cover_Background from './cover_page_background';
+import CoverBackground from './cover_page_background';
 
 function cover(){
     return (
         <div>
-            <Cover_Background/>
+            <CoverBackground/>
             <nav className="navbar-header navbar navbar-expand-lg navbar-dark">
                 <div className="container-fluid main-header">
                     <Link to={{pathname: "/"}} className="text-decoration-none"><div className="navbar-brand my-name-in-navbar">Bhuswarna Kashyap</div></Link>

@@ -5,10 +5,8 @@ import Experience from './Experience';
 import Skills from './Skills';
 import Project from './Projects';
 import About from './Aboutme';
-import BackToTop from "react-back-to-top-button";
-import ScrollUpButton from "react-scroll-up-button";
+import {CircleArrow as ScrollUpButton} from "react-scroll-up-button";
 import Header from './Header';
-
 
 function Content() {
     return (
@@ -22,7 +20,7 @@ function Content() {
           <ScrollUpButton
           StopPosition={0}
           ShowAtPosition={100}
-          EasingType='easeOutCubic'
+          EasingType='easeInOutCubic'
           AnimationDuration={500}
           ContainerClassName='ScrollUpButton__Container'
           TransitionClassName='ScrollUpButton__Toggled'

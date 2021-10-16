@@ -1,15 +1,15 @@
 import React from 'react';
 import '../background.css';
 
-function Cover_Background(){
+function CoverBackground(){
     return(
         <div>
-            <div class="background-container">
-                <div class="stars"></div>
-                <div class="twinkling"></div>
+            <div className="background-container">
+                <div className="stars"></div>
+                <div className="twinkling"></div>
             </div>
         </div>
     );
 }
 
-export default Cover_Background;
+export default CoverBackground;

@@ -10,11 +10,16 @@ function About(){
                     <h1 className="aboutme text-center">ABOUT ME</h1>
                     <div className="card aboutme-card">
                         <div className="content mt-4">
-                            <h5>I am a Computer Science and Engineering student currently in my fourth year at Assam Engineering College, Assam, India.
-                                I am a frontend developer with a good amount of knowledge in Javascript, React and Bootstrap.
-                                I am also a ML and AI enthusiast. I am familiar with Google Cloud Platform.
+                            <h4>Hello there!</h4>
+                            <h5>My name is Bhuswarna Kashyap. I am a Computer Science and Engineering student, 
+                                currently in my fourth year at Assam Engineering College, Assam, India.
+                                I am a frontend developer with a decent amount of knowledge and understanding 
+                                in the field of Javascript, React and Bootstrap.
+                                I am also a Machine Learning and Artificial Intelligence enthusiast. 
+                                I also have a fair apprehension of Google Cloud Platform.
                                 <br/><br/>
-                                P.S. - Do hover or tap over the cards below to see awesome effects!
+                                P.S. - Do hover or tap over the cards below to see awesome effects! <br/>
+                                Also don't forget to do a scroll after you click/tap on the back-to-top button. &#128519;&#128519;
                             </h5>
                             <div className="col-12 text-center mx-auto mt-4 mb-5">
                                 <a href={Resume} target="_blank" rel="noreferrer noopener" className="resume-button btn btn-lg px-5 mt-4">

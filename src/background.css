@@ -142,7 +142,7 @@
 /*View my Resume here button*/
 .resume-button{
   display: inline-block;
-  color: #6BD425;
+  color: #39ff14;
   letter-spacing: 0.5rem;
   font-size: 24px;
   overflow: hidden;
@@ -155,8 +155,8 @@
 
 .resume-button:hover{
   color: #0c3152;
-  background: #6BD425;
-  box-shadow: 0 0 10px #6BD425, 0 0 40px #6BD425, 0 0 80px #6BD425;
+  background: #39ff14;
+  box-shadow: 0 0 10px #39ff14, 0 0 40px #39ff14, 0 0 80px #39ff14;
   /*transition-delay: 1s;*/
 }
 
